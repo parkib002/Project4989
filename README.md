@@ -8,7 +8,7 @@ https://www.canva.com/design/DAGxO604Jd4/kKfNYw9hL8KevlRUd1Suug/edit?utm_content
 
 ---
 
-  주요 기능
+## 💡 주요 기능
 - 사용자 회원가입 및 로그인
 - 중고 물품 등록 및 조회
 - 게시판 작성 및 목록 보기
@@ -22,7 +22,7 @@ https://www.canva.com/design/DAGxO604Jd4/kKfNYw9hL8KevlRUd1Suug/edit?utm_content
 
 ---
 
- 사용 기술
+## 🛠️ 사용 기술
 - **srping boot**
 - **vite+react,node.js**
 - **MySQL**
