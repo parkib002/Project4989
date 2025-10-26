@@ -359,7 +359,11 @@
   margin-top: 4px;
 }
 
+<<<<<<< HEAD
 /* 타이머 섹션 - 흰색 배경 */
+=======
+/* 타이머 섹션 - back.png 배경 */
+>>>>>>> d5640ef31b4a1d606524b5dae2f9909742549252
 .timer-section-overlay {
   background: #ffffff;
   border: 1px solid #e8e8e8;
@@ -993,6 +997,7 @@
 .favorite-heart-btn:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+<<<<<<< HEAD
 }
 
 /* 사진 슬라이더 스타일 */
@@ -2109,4 +2114,6 @@
     padding: 14px 20px;
     font-size: 15px;
   }
+=======
+>>>>>>> d5640ef31b4a1d606524b5dae2f9909742549252
 } 

@@ -22,10 +22,14 @@ const AuctionMain = () => {
 
   const fetchAuctionList = async () => {
     try {
+<<<<<<< HEAD
       const apiBase = import.meta.env.VITE_API_BASE;
       console.log('API Base:', apiBase);
       const response = await axios.get(`${apiBase}/auction`);
       console.log('경매 데이터:', response.data);
+=======
+      const response = await axios.get('http://192.168.10.138:4989/auction');
+>>>>>>> d5640ef31b4a1d606524b5dae2f9909742549252
       setAuctionList(response.data);
 
       // 사진, 최고가 가져오기
@@ -33,11 +37,21 @@ const AuctionMain = () => {
       const highestBids = {};
 
       for (const auction of response.data) {
+<<<<<<< HEAD
         // 경매 사진 가져오기 (첫 번째 사진만)
         try {
           const photoResponse = await axios.get(`${import.meta.env.VITE_API_BASE}/auction/photos/${auction.postId}`);
           if (photoResponse.data && photoResponse.data.length > 0) {
             photos[auction.postId] = photoResponse.data[0].photo_url;
+=======
+        if (auction.winnerId) {
+          try {
+            const nicknameResponse = await axios.get(`http://192.168.10.138:4989/auction/member/${auction.winnerId}`);
+            nicknames[auction.postId] = nicknameResponse.data.nickname;
+          } catch (err) {
+            console.error(`낙찰자 닉네임 조회 실패 (ID: ${auction.winnerId}):`, err);
+            nicknames[auction.postId] = `ID ${auction.winnerId}`;
+>>>>>>> d5640ef31b4a1d606524b5dae2f9909742549252
           }
         } catch (err) {
           console.error(`경매 사진 조회 실패 (postId: ${auction.postId}):`, err);

@@ -95,8 +95,12 @@ const DetailChat = ({ open, onClose, chatRoom, zIndex = 1000, offset = 0, onLeav
     const isInitialScrollDone = useRef(false);
 
     const chatRoomId = chatRoom?.chatRoomId;
+<<<<<<< HEAD
     const isAdminInvestigation = chatRoom?.isAdminInvestigation || false;
     const SERVER_IP = '175.212.203.114';
+=======
+    const SERVER_IP = '192.168.10.138';
+>>>>>>> d5640ef31b4a1d606524b5dae2f9909742549252
     const SERVER_PORT = '4989';
 
     const handleMenuOpen = (event) => {
