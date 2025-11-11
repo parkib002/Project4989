@@ -6,6 +6,9 @@
 ppt 및 시연 영상 링크:
 https://www.canva.com/design/DAGxO604Jd4/kKfNYw9hL8KevlRUd1Suug/edit?utm_content=DA[…]m_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
+notion링크(포트폴리오):
+https://www.notion.so/Project-Record-Template-2-29757c16c5d280b5bc1efacc02895a4b
+
 ---
 
 ## 💡 주요 기능
